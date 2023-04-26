@@ -1,0 +1,184 @@
+/* @font-face {
+    font-family:Sigmarr;
+    src: url(Sigmar.ttf);
+} */
+
+@font-face {
+    font-family: Yellowed-Light;
+    src: url(Yellowed-Light.ttf);
+}
+@font-face {
+    font-family: Forum-RdrM;
+    src: url(Forum-RdrM.ttf);
+}
+h1{
+    font-family: Yellowed-Light;
+}
+h2{
+    font-family: Yellowed-Light;
+}
+.textYellow{
+    font-family: Yellowed-Light;
+}
+.textForum{
+    font-family: Forum-RdrM;
+}
+body{
+    background-color: #dfd7cf !important; 
+
+}
+
+/* ---------------------------------------------------Header */
+
+.tituloNavegacion{
+    color: white;
+}
+/* ---------------------------------------------------Main */
+/* Seccion 1 */
+
+/* Seccion 2 */
+.tituloSeccion2{
+    width: 270px;
+}
+
+.seccion2{
+    background-color: #92b6c2;
+}
+.boton{
+    background-color: #92b6c2;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 8px;
+}
+.boton:hover{
+    background-color: #82b4c5;
+    color: #dfd7cf;
+}
+.card-text{
+    color: white;
+}
+
+/* Footer */
+.footer{
+    background-image: url('/img/Footerbc.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+ /* Deja el fondo estatico */
+    height: 600px;
+}
+.footer--contImagen{
+    background-color: #dfd7cf;
+}
+
+/* ----------------------------------------- MEDIA QUERY */
+
+@media (max-width: 743px) {
+    /* Header */
+    .headerMobile{
+        background-image: url('/img/bcNav.jpeg');
+        height: 170px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .headerDeskTablet{
+        display: none;
+    }
+    .tituloNavegacion{
+        display: none;
+    }
+    .NavDeskTablet{
+        display: none;
+    }
+    .NavDeskTablet{
+        display: none;
+        background-color: rgba(255, 0, 0, 0);
+    }
+    .containerNoticias{
+        flex-direction: column-reverse !important;
+    }
+    .imgseccion1{
+        width: 230px;
+        height: 280px;
+
+
+    }
+    .seccion2{
+        display: none;
+    }
+    .seccion3Contenedor1{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .seccion3Contenedor2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgseccion3{
+        width: 350px;
+        height: 195px;
+    }
+    .footer{
+        background-image: url('/img/Fooserbc.jpeg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-size: 100% 300px;
+        height: 500px;
+        margin-bottom: 100px;
+    }
+    .footer--contImagen__img{
+        width: 75px;
+        height: 61px;
+    }
+    .imgFooter{
+        width: 40px;
+    }
+    .TtextFooter{
+        font-size: 10px;
+    }
+    .T2textFooter{
+        font-size: 10px;
+    }
+    .PtextFooter{
+        font-size: 10px;
+    }
+    .T1textnewsletter{
+        font-size: 12px;
+    }
+    .T2textnewsletter{
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 744px) {
+    .headerDeskTablet{
+        background-image: url('/img/bcNav.jpeg');
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .headerMobile{
+        display: none;
+        background-color: rgba(255, 0, 0, 0);
+    }
+    .seccion2Mobile{
+        display: none;
+    }
+    .footer{
+        background-image: url('/img/Footerbc.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+     /* Deja el fondo estatico */
+        height: 600px;
+    }
+}
+
+
+
+
+
+/* Imagen 1: Ancho: 428px */
