@@ -175,6 +175,9 @@ body{
      /* Deja el fondo estatico */
         height: 600px;
     }
+    .footerDesk{
+        display: none;
+    }
 }
 
 
