@@ -1,38 +1,15 @@
-/* @font-face {
-    font-family:Sigmarr;
-    src: url(Sigmar.ttf);
-} */
-
 @font-face {
     font-family: Yellowed-Light;
     src: url(Yellowed-Light.ttf);
 }
-@font-face {
-    font-family: Forum-RdrM;
-    src: url(Forum-RdrM.ttf);
-}
-h1{
-    font-family: Yellowed-Light;
-}
-h2{
-    font-family: Yellowed-Light;
-}
-.textYellow{
-    font-family: Yellowed-Light;
-}
-.textForum{
-    font-family: Forum-RdrM;
-}
 body{
     background-color: #dfd7cf !important; 
-
 }
-
+h1 { font-family: Yellowed-Light;}
 /* ---------------------------------------------------Header */
 
 .tituloNavegacion{
-    color: #dfd7cf;
-    font-size: xxx-large;
+    color: white;
 }
 /* ---------------------------------------------------Main */
 /* Seccion 1 */
@@ -45,29 +22,18 @@ body{
 .seccion2{
     background-color: #92b6c2;
 }
-.boton{
-    background-color: #92b6c2;
-    color: white;
-    text-decoration: none;
-    border: 1px solid white;
-    border-radius: 8px;
-    padding: 8px;
-}
-.boton:hover{
-    background-color: #82b4c5;
-    color: #dfd7cf;
-}
+
 .card-text{
     color: white;
 }
 
 /* Footer */
 .footer{
-    background-image: url('/img/Footerbc.jpeg');
+    background-image: url(/img/Footerbc.jpeg);
+    height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
- /* Deja el fondo estatico */
-    height: 600px;
+
 }
 .footer--contImagen{
     background-color: #dfd7cf;
@@ -78,12 +44,12 @@ body{
 @media (max-width: 743px) {
     /* Header */
     .headerMobile{
-        background-image: url('/img/bcNav.jpeg');
-        height: 210px;
+        background-image: url(/img/bcNav.jpeg);
+        height: 170px;
         background-repeat: no-repeat;
         background-size: cover;
-        font-family: Yellowed-Light;
     }
+    .navbar-brand {}
     .headerDeskTablet{
         display: none;
     }
@@ -106,13 +72,6 @@ body{
 
 
     }
-    .seccion2{
-        display: none;
-    }
-    
-    .ttituloSeccion2 {
-        font-size: 15px;
-    }
     .seccion3Contenedor1{
         flex-direction: column-reverse;
         justify-content: center;
@@ -128,35 +87,13 @@ body{
         height: 195px;
     }
     .footer{
-        background-image: url('/img/Fooserbc.jpeg');
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-size: 100% 300px;
-        height: 500px;
-        margin-bottom: 100px;
+        height: 240px;
     }
     .footer--contImagen__img{
         width: 75px;
         height: 61px;
     }
-    .imgFooter{
-        width: 40px;
-    }
-    .TtextFooter{
-        font-size: 10px;
-    }
-    .T2textFooter{
-        font-size: 10px;
-    }
-    .PtextFooter{
-        font-size: 10px;
-    }
-    .T1textnewsletter{
-        font-size: 12px;
-    }
-    .T2textnewsletter{
-        font-size: 10px;
-    }
+
 }
 
 @media (min-width: 744px) {
@@ -170,20 +107,6 @@ body{
         display: none;
         background-color: rgba(255, 0, 0, 0);
     }
-    .seccion2Mobile{
-        display: none;
-    }
-    .footer{
-        background-image: url('/img/Footerbc.jpeg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-     /* Deja el fondo estatico */
-        height: 600px;
-    }
-    .footerDesk{
-        display: none;
-    } 
 }
 
 
